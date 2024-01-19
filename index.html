@@ -60,7 +60,7 @@
 
             <input type="submit" class="btn btn-danger" name="acao" value="Salvar" onclick="valida_form()">
             <button class="btn btn-warning" name="limpar">Limpar</button>
-            <input type="button" class="btn btn-dark" value="Imprimir" onClick="window.print()" />
+            <input type="button" class="btn btn-dark" value="Imprimir"/>
         </div>
     </div>
 
@@ -73,19 +73,7 @@
         <!--  <h1 style="color: #3c763d;">Total: R$0</h1>-->
     </div>
 
-    <script type="text/javascript" language="javascript">
-
-        function valida_form() {
-            if (document.getElementById("nome").value == "") {
-                alert('Por favor, preencha o campo nome');
-                document.getElementById("nome").focus();
-                return false
-            }
-        }
-
-    </script>
-
-
+  
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
