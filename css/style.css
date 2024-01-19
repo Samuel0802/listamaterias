@@ -1,0 +1,95 @@
+body {
+    overflow-x: hidden; 
+    background-color: #fff2cc;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+* {
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+
+    background-color: #ee4242;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+   
+}
+
+.centered {
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+.sumir{
+    visibility:hidden;
+}
+
+.lista-super {
+    text-align: center;
+    display: flex;
+    margin: 20px 0;
+
+
+}
+
+.lista-super input[type=text] {
+    text-align: center;
+    flex: 1;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.lista-super input[type=number] {
+    text-align: center;
+    flex: 1;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.lista-produto-single {
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.lista-produto-single h3 {
+    flex: 1;
+    padding: 0 20px;
+}
+
+h3.price-produto {
+    text-align: right;
+    font-size: 18px;
+}
+
+h3.price-produto>span {
+    background-color: white;
+    padding: 8px 10px;
+    border-radius: 20px;
+}
+
+.soma-produto {
+    margin: 20px;
+}
+
+.centered {
+    margin: 0 auto !important;
+    float: none !important;
+}
+.top{
+    position: relative;
+top: 10px;
+left: 130px;
+}
+
+.img{
+    width: 250px;
+    height: 150px;
+}
